@@ -1,0 +1,69 @@
+section {
+  height: 100%;
+}
+
+section input {
+  display: block;
+  width: 98%;
+  margin: 5px auto;
+  outline: none;
+  background-color: #fff;
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  color: #505050;
+}
+
+#messages {
+  background-color: #fff;
+  padding: 10px;
+  height: 50vh;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+#messages p {
+  margin: 13px 0;
+  padding: 0;
+}
+
+.info {
+  margin: 13px 0;
+  font-style: italic;
+  color: #505050;
+}
+
+.message-container {
+  margin: 5px 0;
+  color: #039be5;
+  padding: 13px;
+  border-radius: 8px;
+  background: #ddd;
+}
+
+.message-container .username {
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+  color: pink;
+  float: left;
+}
+
+.message-container .username.me {
+  font-weight: bold;
+  color: #039be5;
+  float: right;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.chat-panel {
+  height: 50vh;
+  min-height: 50vh;
+  max-height: 50vh;
+}
+
+.rep-hover {
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.banner {
+  position: absolute;
+  width: 205px;
+  height: 86px;
+  top: 87px;
+}
+
+.banner > img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner0 { display: none; }
+.banner1 { left: 193px; }
+.banner2 { left: 889px; }
+.banner3 { left: 1584px; }
+.banner4 { left: 2186px; }
+.banner5 { left: 2882px; }
+.banner6 { left: 3578px; }
+.banner7 { left: 4178px; }
+.banner8 { left: 4874px; }
+.banner9 { left: 5570px; }
+.banner10 { left: 6172px; }
+.banner11 { left: 6867px; }
+.banner12 { left: 7563px; }
+.banner13 { left: 8153px; }
+.banner14 { left: 8849px; }
+.banner15 { left: 9545px; }
+.banner16 { left: 10146px; }
+.banner17 { left: 10842px; }
+.banner18 { left: 11538px; }
+.banner19 { left: 12138px; }
+.banner20 { left: 12834px; }
+.banner21 { left: 13530px; }
+.banner22 { left: 14131px; }
+.banner23 { left: 14827px; }
+.banner24 { left: 15523px; }
+.banner25 { left: 16113px; }
+.banner26 { left: 16809px; }
+.banner27 { left: 17505px; }
+.banner28 { left: 18106px; }
+.banner29 { left: 18803px; }
+.banner30 { left: 19498px; }
+.banner31 { left: 20098px; }
+.banner32 { left: 20794px; }
+.banner33 { left: 21490px; }
+.banner34 { left: 22092px; }
+.banner35 { left: 22788px; }
+.banner36 { left: 23484px; }

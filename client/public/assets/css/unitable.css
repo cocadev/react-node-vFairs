@@ -1,0 +1,52 @@
+.dx-row td.uni_table {
+  display: inline-block;
+  min-width: 31.6vw;
+  width: 31.6vw;
+  border: 0 !important;
+}
+
+.uni_td, .uni_table, .uni_grid {
+  background-color: #fff;
+  border: 0 !important;
+}
+
+.dx-row td.uni_table:nth-child(2) {
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+.dx-header-row td.uni_table {
+  background-color: #039be5 !important;
+  color: #fff !important;
+  font-size: 1.3em !important;
+  line-height: 25px !important;
+  text-align: center !important;
+  border: 0 !important;
+  display: inline-block;
+  min-width: 31.6vw;
+  width: 31.6vw;
+}
+
+.dx-header-row td.uni_table:nth-child(2) {
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+.dx-header-row td.uni_table:hover {
+  background-color: #039be5 !important;
+  color: #fff !important;
+  cursor: default;
+  border: 0 !important;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td.uni_table:hover .dx-datagrid-text-content  {
+  color: #fff !important;
+}
+
+.dx-datagrid-headers {
+  border: 0 !important;
+}
+
+.dx-datagrid-filter-row {
+  background-color: #fff !important;
+}

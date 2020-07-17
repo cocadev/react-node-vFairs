@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Odros.com | Virtual Fairs">
+        <meta name="keywords" content="Virtual Fairs, Virtual, Fairs, Odors">
+        <meta name="author" content="Mazajnet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        
+        <base href="%PUBLIC_URL%/">
+        <base href="/vFairs/">
+
+        <!--
+          manifest.json provides metadata used when your web app is added to the
+          homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+        -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+        <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+        <link href="%PUBLIC_URL%/assets/fonts/material-outline-icons/styles.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/fonts/meteocons/style.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.7/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/19.2.7/css/dx.material.blue.light.css" />
+
+        <link href="%PUBLIC_URL%/assets/css/spinner.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/css/popover.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/css/unitable.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/css/banners.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/css/booths.css" rel="stylesheet">
+        <link href="%PUBLIC_URL%/assets/css/chat.css" rel="stylesheet">
+
+        <noscript id="jss-insertion-point"></noscript>
+        <title>Odros | Virtual Fairs</title>
+    </head>
+    <body>
+        <noscript>
+            You need to enable JavaScript to run this app.
+        </noscript>
+        <div id="root" class="flex">
+            <!-- FUSE Splash Screen -->
+            <div id="fuse-splash-screen">
+
+                <div class="center">
+
+                    <div class="logo">
+                        <img width="256" src="./assets/images/logos/odros-full.png" alt="logo">
+                    </div>
+
+                    <!-- Material Design Spinner -->
+                    <div class="spinner-wrapper">
+                        <div class="spinner">
+                            <div class="inner">
+                                <div class="gap"></div>
+                                <div class="left">
+                                    <div class="half-circle"></div>
+                                </div>
+                                <div class="right">
+                                    <div class="half-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Material Design Spinner -->
+
+                </div>
+
+            </div>
+            <!-- / FUSE Splash Screen -->
+        </div>
+
+        <script src="https://media.twiliocdn.com/sdk/js/chat/v3.3/twilio-chat.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </body>
+</html>

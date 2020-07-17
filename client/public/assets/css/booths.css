@@ -1,0 +1,27 @@
+.university {
+  position: absolute;
+  top: 270px;
+  width: 500px;
+  height: 225.72px;
+}
+
+.university > img {
+  width: 100%;
+  height: 100%;
+}
+
+.booth1 { left: 100px; }
+.booth2 { left: 650px; }
+.booth3 { left: 1200px; }
+.booth4 { left: 1750px; }
+.booth5 { left: 2300px; }
+.booth6 { left: 2850px; }
+.booth7 { left: 3400px; }
+.booth8 { left: 3950px; }
+.booth9 { left: 4500px; }
+.booth10 { left: 5050px; }
+.booth11 { left: 5600px; }
+.booth12 { left: 6150px; }
+.booth13 { left: 6700px; }
+.booth14 { left: 7250px; }
+.booth15 { left: 7800px; }

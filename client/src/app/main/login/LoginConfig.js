@@ -1,0 +1,35 @@
+import Login from './Login';
+import { authRoles } from 'app/auth';
+
+const LoginConfig = {
+	settings: {
+		layout: {
+			config: {
+				navbar: {
+					display: false
+				},
+				toolbar: {
+					display: false
+				},
+				footer: {
+					display: false
+				},
+				leftSidePanel: {
+					display: false
+				},
+				rightSidePanel: {
+					display: false
+				}
+			}
+		}
+	},
+	auth: authRoles.guest,
+	routes: [
+		{
+			path: '/login',
+			component: Login
+		}
+	]
+};
+
+export default LoginConfig;
